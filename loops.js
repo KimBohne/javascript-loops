@@ -12,6 +12,18 @@
 // ==========================================
 
 
+// let stars = "*";
+// for (let i = 0; i <= 4; i++) {
+//     console.log(stars.repeat(i+1));
+// }
+
+
+
+
+
+
+
+
 
 
 
@@ -24,7 +36,13 @@
 // loop...
 // klaar!
 // ==========================================
-
+// for (let i = 0; i < 5; i++){
+//     if (i === 4) {
+//         console.log("Klaar!")
+//     } else {
+//         console.log("loop...");
+//     }
+// }
 
 
 
@@ -44,6 +62,15 @@
 // >> 8
 // >> 9
 // ==========================================
+// for (let i = 0 ; i < 10; i++) {
+//     if (i >= 6) {
+//         console.log('>>' + i)
+//     } else if (i >= 3){
+//         console.log(">" + i)
+//     } else {
+//         console.log(i)
+//     }
+// }
 
 
 
@@ -86,6 +113,22 @@
 // FizzBuzz
 // etc.
 // ==========================================
+
+for (let i = 0; i <= 100; i++) {
+    if ( i%3 === 0 && i%5 === 0) {
+        console.log("FizzBuzz");
+        continue;
+    } else if ( i%3 === 0) {
+        console.log("Fizz");
+    } else if ( i%5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
+
+
+
 
 
 
